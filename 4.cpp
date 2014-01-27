@@ -24,7 +24,10 @@
          maxSum=count[i+1];
          endPoint=i+1;
      }
- }A
+     if(startPoint>endPoint){
+         startPoint=endPoint;
+     }
+ }
  Vector<int> result;
  for(int i=0;i<endPoint-startPoint+1;i++){
      result.add(nums[startPoint+i]);

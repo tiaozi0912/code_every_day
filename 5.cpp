@@ -9,11 +9,12 @@
   }else if(s.length()>1){
     string max;
     
-    for(int i=0;i<s.length();i++){
+    for(int i=0;i<s.length()-1;i++){
         string result="";
         if(!s[i]==s[i+1]){
-            for(int j=0;j<min(i+1,s.length()-i);j++){
-                if(s[i-j]=s[i+j]){
+            result+=s[i];
+            for(int j=1;j<min(i+1,s.length()-i);j++){
+                if(s[i-j]==s[i+j]){
                    result=s[i-j]+result+s[i+j];
                 }else{
                     j=s.length();
@@ -21,7 +22,7 @@
             }
         }else{
             for(int j=0;j<min(i+1,s.length()-i-1);j++){
-                if(s[i-j]=s[i+j+1]){
+                if(s[i-j]==s[i+j+1]){
                    result=s[i-j]+result+s[i-j];
                 }else{
                     j=s.length();
