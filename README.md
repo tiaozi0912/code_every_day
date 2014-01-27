@@ -18,6 +18,8 @@ Given a target number, and a series of candidate numbers, print out all combinat
 ### Q5
 Given a string S, find the longest palindromic substring in S.  O(N2) time complexity. A palindrome is a string which reads the same in both direction. Ex. "aba"
 
+[Here is the solution of O(N2) time and O(1) space](http://leetcode.com/2011/11/longest-palindromic-substring-part-i.html#crayon-52e10cfadb7a7)
+
 ---
 
 ### Q4
