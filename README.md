@@ -9,6 +9,15 @@ Resources:
 
 ---
 
+### Q8
+There are n coins in a line. (Assume n is even). Two players take turns to take a coin from one of the ends of the line until there are no more coins left. The player with the larger amount of money wins.
+
+Would you rather go first or second? Does it matter? Assume that you go first, describe an algorithm to compute the maximum amount of money you can win.
+
+[Hint and Analysis](http://leetcode.com/2011/02/coins-in-line.html)
+
+---
+
 ### Q7
 Rotate a one-dimensional array of n elements to the right by k steps. For instance, with n=7 and k=1, the array {a, b, c, d, e, f, g} is rotated to {b, c, d, e, f, g， a}. If k = 3 instead of 1, then is rotated to {e, f, g, a, b, c, d}. Required in-place rotation method, which means space complexity is O(1).
 
