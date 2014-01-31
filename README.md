@@ -4,6 +4,7 @@ code_every_day
 Code interview questions for Tangtang. Keep practicing everyday and you will succeed!
 
 Resources:
++ [Cracking the coding interviews](http://hawstein.com/posts/ctci-solutions-contents.html)
 + [Hacking Goolge Interview](http://leetcode.com/2010/04/hacking-google-interview-from-mit.html)
 + [Programming interviews exposed](http://searchworks.stanford.edu/view/9863051)
 
